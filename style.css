@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'roboto', sans-serif;
+  color: #ffffff;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #243446;
+  padding: 20px;
+}
+
+.main {
+  padding: 20px;
+  background-color: #dedabb;
+  border-radius: 10px;
+  box-shadow: 2px 2px 100px rgba(188, 186, 186, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.form-data {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container h1 {
+  font-size: 4rem;
+  text-shadow: 2px 1px 2px #141516;
+}
+
+.form-container span {
+  font-size: 1.7rem;
+  text-shadow: 2px 1px 2px #141516;
+}
+
+.card-container {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-container * {
+  color: #243446;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+
+.card-container h2 {
+  font-size: 3rem;
+}
+
+.card-container p {
+  font-size: 1.7rem;
+  text-shadow: none;
+  font-weight: 800;
+}
+
+.card-container span {
+  font-size: 1.3rem;
+  text-shadow: none;
+}
+
+.card-container img {
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
+}
+
+.form-input {
+  display: flex;
+  gap: 10px;
+}
+
+.number {
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 2px;
+  text-shadow: none;
+  color: #243446;
+}
+
+#submit {
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 2px;
+  background-color: #243446;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
