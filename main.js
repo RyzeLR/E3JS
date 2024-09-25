@@ -4,7 +4,7 @@ const pizzas = [
     nombre: 'pizza de Muzzarella',
     precio: 500,
     ingredientes: ['Muzzarella', 'Tomate', 'Aceitunas'],
-    imagen: './assets/img/Muzzarella.png',
+    imagen: './assets/img/muzzarella.png',
   },
 
   {
@@ -34,7 +34,7 @@ const pizzas = [
     nombre: 'pizza Especial',
     precio: 1000,
     ingredientes: ['Muzzarella', 'Tomate', 'Rucula', 'Jamón'],
-    imagen: './assets/img/Especial.png',
+    imagen: './assets/img/especial.png',
   },
   {
     id: 5,
