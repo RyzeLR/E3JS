@@ -82,6 +82,11 @@ const buscarPizzas = (e) => {
     (pizza) => pizza.id === parseInt(idPizza),
   );
 
+  if (!idPizza) {
+    cardContainer.innerHTML = `<h3>Por favor, ingrese un número del 1 al 5</h3>`;
+    return;
+  }
+
   if (pizzaEncontrada) {
     renderizarCard(pizzaEncontrada);
     localStorage.setItem('ultimaBusqueda', JSON.stringify(pizzaEncontrada));
