@@ -91,7 +91,7 @@ const buscarPizzas = (e) => {
     renderizarCard(pizzaEncontrada);
     localStorage.setItem('ultimaBusqueda', JSON.stringify(pizzaEncontrada));
   } else {
-    cardContainer.innerHTML = `<h3>No se encontro ningun producto</h3>`;
+    cardContainer.innerHTML = `<h3>No se encontro ningun producto, Por favor, ingrese un número del 1 al 5</h3>`;
   }
 };
 
